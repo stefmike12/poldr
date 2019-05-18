@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+}
+
+.nav {
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.column {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  align-content: space-between;
+
+}
+
+.navlogo {
+  margin: 3rem;
+  width: 120px;
+}
+
+.navmenu {
+  height: 17px;
+  margin: 3rem;
+}
+
+.navlink {
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  font-family: 'futura';
+  margin: 3rem;
+}
+
+.header {
+  height: 100vh;
+}
+
+.radial-gradient {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /*Fallback if gradeints don't work */
+  background: black;
+  /*Linear gradient... */
+  background:
+    radial-gradient(at center, #242424, black);
+}
+
+/******************************
+
+center content
+
+******************************/
+
+.poldrtext {
+  width: 300px;
+  padding: 2rem;
+
+}
+
+.poldricon {
+  width: 210px;
+  padding: 2rem;
+  fill: white;
+
+}
