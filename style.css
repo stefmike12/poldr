@@ -27,6 +27,14 @@
   width: 120px;
 }
 
+.navlogomobile {
+  margin: 3rem;
+  width: 40px;
+  display: none;
+}
+
+
+
 .navmenu {
   height: 17px;
   margin: 3rem;
@@ -106,6 +114,13 @@ media queries
     width: 105px;
     padding: 1rem;
 
+  }
+
+  #navlogo {
+    display: none;
+  }
+  .navlogomobile {
+    display: inline-block;
   }
 
 }
