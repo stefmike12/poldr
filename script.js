@@ -5,5 +5,5 @@ $(document).mousemove(function (event) {
     mouseXpercentage = Math.round(event.pageX / windowWidth * 100);
     mouseYpercentage = Math.round(event.pageY / windowHeight * 100);
 
-    $('.radial-gradient').css('background', 'radial-gradient(at ' + mouseXpercentage + '% ' + mouseYpercentage + '%, #121212, #000000) ');
+    $('.radial-gradient').css('background', 'radial-gradient(at ' + mouseXpercentage + '% ' + mouseYpercentage + '%, #242424, #000000) ');
 });
